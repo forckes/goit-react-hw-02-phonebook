@@ -4,9 +4,9 @@ export const theme = {
 		white: "#fff",
 		text: "#2a2a2a",
 		background: "#fff",
-		primary: "#07c",
+		primary: "#1990CB",
 		secondary: "#05a",
-		accent: "#609",
+		red: "#E64A19",
 		muted: "#f6f6f6"
 	},
 	space: [0, 2, 4, 8, 16, 32, 64, 128, 256],
@@ -16,11 +16,11 @@ export const theme = {
 		monospace: "Menlo, monospace"
 	},
 	fontSizes: {
-		xs: "12px",
-		s: "14px",
-		m: "16px",
+		xs: "16px",
+		s: "18px",
+		m: "24px",
 		l: "32px",
-		xl: "64px"
+		xl: "54px"
 	},
 	fontWeights: {
 		normal: 400,
