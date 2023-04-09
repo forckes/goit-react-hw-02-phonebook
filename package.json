@@ -22,6 +22,8 @@
 	},
 	"author": "forckes",
 	"scripts": {
+		"predeploy": "npm run build",
+		"deploy": "gh-pages -d build",
 		"start": "react-scripts start",
 		"build": "react-scripts build --public-url /goit-react-hw-02-phonebook/",
 		"test": "react-scripts test",
@@ -45,5 +47,8 @@
 			"last 1 firefox version",
 			"last 1 safari version"
 		]
+	},
+	"devDependencies": {
+		"gh-pages": "^5.0.0"
 	}
 }
