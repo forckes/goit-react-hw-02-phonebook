@@ -2,7 +2,29 @@ import React, { Component } from "react";
 import styled from "styled-components";
 import { Box } from "components/Box/Box";
 import { Formik, Form, Field } from "formik";
-import { Label, Button } from "./PhoneForm.styled";
+import { Label } from "./PhoneForm.styled";
+import IconButton from "components/IconButton/IconButton";
+import { ReactComponent as AddIcon } from "../../icons/user-add-svgrepo-com.svg";
+
+export const Button = styled(IconButton)`
+	display: flex;
+	border-radius: ${p => p.theme.radii.normal};
+	border: ${p => p.theme.borders.none};
+	color: ${p => p.theme.colors.white};
+	background-color: ${p => p.theme.colors.primary};
+	padding: ${p => p.theme.space[3]}px ${p => p.theme.space[5]}px;
+	font-weight: ${p => p.theme.fontWeights.normal};
+	font-size: ${p => p.theme.fontSizes.m};
+	align-items: center;
+	gap: ${p => p.theme.space[4]}px;
+	cursor: pointer;
+	:hover {
+		opacity: 0.9;
+	}
+	:active {
+		opacity: 0.7;
+	}
+`;
 
 const StyledForm = styled(Form)`
 	display: flex;
@@ -58,7 +80,10 @@ class PhoneForm extends Component {
 								required
 							/>
 						</Label>
-						<Button type='submit'>Add contact</Button>
+						<Button type='submit'>
+							Add contact
+							<AddIcon width='40px' fill='#fff' height='40px' />
+						</Button>
 					</StyledForm>
 				</Formik>
 			</Box>
