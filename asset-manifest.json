@@ -1,13 +1,15 @@
 {
   "files": {
-    "main.css": "/goit-react-hw-02-phonebook/static/css/main.e6c13ad2.css",
-    "main.js": "/goit-react-hw-02-phonebook/static/js/main.e3229c69.js",
-    "index.html": "/goit-react-hw-02-phonebook/index.html",
-    "main.e6c13ad2.css.map": "/goit-react-hw-02-phonebook/static/css/main.e6c13ad2.css.map",
-    "main.e3229c69.js.map": "/goit-react-hw-02-phonebook/static/js/main.e3229c69.js.map"
+    "main.css": "/goit-react-hw-03-phonebook/static/css/main.e6c13ad2.css",
+    "main.js": "/goit-react-hw-03-phonebook/static/js/main.df1a3a31.js",
+    "static/media/delete-2-svgrepo-com.svg": "/goit-react-hw-03-phonebook/static/media/delete-2-svgrepo-com.f8cffaf981bf7ce3510eebf16e23836b.svg",
+    "static/media/user-add-svgrepo-com.svg": "/goit-react-hw-03-phonebook/static/media/user-add-svgrepo-com.e5a8996b97b8e78c260a96018160b8e2.svg",
+    "index.html": "/goit-react-hw-03-phonebook/index.html",
+    "main.e6c13ad2.css.map": "/goit-react-hw-03-phonebook/static/css/main.e6c13ad2.css.map",
+    "main.df1a3a31.js.map": "/goit-react-hw-03-phonebook/static/js/main.df1a3a31.js.map"
   },
   "entrypoints": [
     "static/css/main.e6c13ad2.css",
-    "static/js/main.e3229c69.js"
+    "static/js/main.df1a3a31.js"
   ]
 }
