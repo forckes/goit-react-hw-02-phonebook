@@ -7,23 +7,10 @@ export const ContactsList = styled.ul`
 `;
 export const Contact = styled.ul`
 	margin-bottom: ${p => p.theme.space[3]}px;
-	font-size: ${p => p.theme.fontSizes.m};
+	font-size: ${p => p.theme.fontSizes.l};
+	font-weight: ${p => p.theme.fontWeights.bold};
 	display: flex;
 	justify-content: space-between;
-	gap: ${p => p.theme.space[6]}px;
-`;
-export const DeleteButton = styled.button`
-	background-color: ${p => p.theme.colors.red};
-	border: ${p => p.theme.borders.none};
-	border-radius: ${p => p.theme.radii.normal};
-	color: ${p => p.theme.colors.white};
-	font-size: ${p => p.theme.fontSizes.s};
-	padding: ${p => p.theme.space[3]}px ${p => p.theme.space[4]}px;
-	cursor: pointer;
-	:hover {
-		opacity: 0.9;
-	}
-	:active {
-		opacity: 0.7;
-	}
+	gap: ${p => p.theme.space[5]}px;
+	align-items: center;
 `;
